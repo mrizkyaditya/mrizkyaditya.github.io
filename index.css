@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 3px;
+}
+
+body {
+    background-image: url(foto3.jpg);
+    background-repeat: no-repeat;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    margin: 2ch;
+}
+
+
+.img {
+    border-radius: 10px;
+    background-color: rgb(230, 230, 214);
+    width: 50%;
+    height: 95vh;
+    margin-left: 20cap;
+    text-align: left;
+    border-bottom: grey solid 2px ;
+}
+
+.email {
+    margin-left: 10ch;
+    font-family: arial;
+    font-size: 1rem;
+    text-align: center; 
+    border-bottom: none;  
+}
+
+.id {
+    margin-right: 10ch;
+    color: blue;
+    font-size: 17px;
+    border-bottom: black 1px solid;
+}
+
+.nama {
+    text-align: center;
+    color: rgb(36, 33, 33);
+    font-size: 50px;
+    margin-top: -33cqb;
+    margin-left: 33cqb;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    height: 64vh;
+    justify-content: space-between;
+    width: 99%;
+}
+
+.bio {
+    width: 55%;
+    box-shadow: 20px;
+    background-color: rgba(192, 188, 188, 0.5);
+    color: white;
+    margin-top: 2ch;
+    margin-right: -5cqb;
+}
+
+.p1 {
+    width: 31ch;
+    font-size: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-top: 18px;
+
+}
+
+.edu {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(20, 20, 20);
+    margin-top: 1ch;
+    border-bottom: 2px solid; 
+}
+
+.h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(54, 52, 52);
+    margin-top: 10px;
+}
+
+.p2 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    list-style-type: circle solid; 
+}
+
+.p {
+    text-indent: 20px;
+}
+
+.exp {
+    width: 52%;
+    margin-top: 2ch;
+    margin-left:6cqb;
+    margin-right: 0cqb;
+}
+
+.p3 {
+    text-align: justify;
+    width: 30ch;
+    color: black;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-left: 2cqb;
+}
+
+
+.skill {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(20, 20, 20);
+    margin-top: 1ch;
+    border-bottom: 2px solid; 
+}
+
+.p4 {
+    text-align: justify;
+    width: 30ch;
+    color: black;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-left: 2cqb;
+}
+
+
+.bio-2 {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: black 2px solid;
+}
+
+.exp-2 {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: black 2px solid;
+}
+
+
+
+
+
