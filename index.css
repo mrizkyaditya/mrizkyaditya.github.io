@@ -37,6 +37,10 @@ body {
     font-size: 1.8rem;
     margin-top: 15px;
     font-weight: bold;
+    padding: 10px;
+    border: 2px solid black; 
+    border-radius: 8px; 
+    display: inline-block; 
 }
 
 .email, .id {
