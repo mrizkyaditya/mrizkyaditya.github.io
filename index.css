@@ -1,139 +1,134 @@
-/* Global Styles */
 * {
     margin: 0;
-    padding: 3px;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     background-image: url(foto3.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-    margin: 2ch;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
+    padding: 10px;
 }
 
+/* Container for Image and CV */
 .img {
-    border-radius: 10px;
     background-color: rgb(230, 230, 214);
-    width: 50%;
-    margin: 0 auto;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px; /* Constrain max width for large screens */
+    margin: 20px auto;
     padding: 20px;
     text-align: center;
     border-bottom: grey solid 2px;
 }
 
-.email {
-    font-family: Arial;
+.img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Rounded image */
+}
+
+/* Name and Contact Information */
+.nama {
+    color: rgb(36, 33, 33);
+    font-size: 1.8rem;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.email, .id {
     font-size: 1rem;
-    margin-top: 10px;
+    color: rgb(36, 33, 33);
     display: block;
-    text-align: center;
+    margin-top: 5px;
 }
 
 .id {
     color: blue;
-    font-size: 1rem;
-    border-bottom: black 1px solid;
+    text-decoration: underline;
 }
 
-.nama {
-    color: rgb(36, 33, 33);
-    font-size: 2rem;
-    margin-top: 10px;
-    border: black solid 2px;
-    border-radius: 5px;
-    padding: 10px;
-}
-
+/* Content Sections (Biodata, Education, Experience, Skills) */
 .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
     margin-top: 20px;
+    text-align: left;
 }
 
 .bio, .exp {
-    width: 100%;
-    background-color: rgba(192, 188, 188, 0.5);
-    color: black;
-    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.bio-2, .exp-2, .edu, .skill {
+    font-size: 1.5rem;
+    font-weight: bold;
     margin-bottom: 10px;
+    color: rgb(36, 33, 33);
+    border-bottom: 2px solid;
 }
 
 .p1, .p3, .p4 {
     font-size: 1rem;
-    text-align: justify;
-    margin-top: 10px;
-}
-
-.edu, .skill {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-top: 1ch;
-    border-bottom: 2px solid;
+    line-height: 1.6;
     color: black;
-}
-
-.bio-2, .exp-2 {
-    font-size: 1.5rem;
-    font-weight: bold;
     margin-bottom: 10px;
-    color: black;
-    border-bottom: 2px solid;
 }
 
-/* Responsive Styles for Mobile */
-@media (max-width: 768px) {
-    body {
-        margin: 0;
-    }
+/* Education and Experience Lists */
+.h2, .p2 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: rgb(36, 33, 33);
+}
 
+li {
+    margin-left: 20px;
+    list-style-type: circle;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    /* Adjust container size for smaller screens */
     .img {
         width: 100%;
         padding: 15px;
     }
 
+    /* Resize image for mobile */
+    .img img {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* Adjust text sizes */
     .nama {
         font-size: 1.5rem;
-        margin-top: 0;
     }
 
     .email, .id {
-        font-size: 1rem;
-        margin-top: 5px;
+        font-size: 0.9rem;
     }
 
-    .content {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    .bio, .exp {
-        width: 100%;
-        margin-top: 10px;
+    .bio-2, .exp-2, .edu, .skill {
+        font-size: 1.3rem;
     }
 
     .p1, .p3, .p4 {
-        font-size: 14px;
-        width: 100%;
-        margin: 0;
+        font-size: 0.9rem;
     }
 
-    .edu, .skill {
-        font-size: 1.2rem;
+    li {
+        font-size: 0.9rem;
     }
 
-    .bio-2, .exp-2 {
-        font-size: 1.5rem;
+    /* Layout adjustments */
+    .content {
+        margin-top: 10px;
     }
 
-    img {
-        max-width: 100%;
-        height: auto;
+    .bio, .exp {
+        margin-bottom: 15px;
     }
 }
