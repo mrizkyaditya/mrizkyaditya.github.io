@@ -40,7 +40,10 @@ body {
     padding: 10px;
     border: 2px solid black; 
     border-radius: 8px; 
-    display: inline-block; 
+    display: inline-block;
+    width: 100%;
+    text-align: center; 
+    box-sizing: border-box;
 }
 
 .email, .id {
@@ -109,6 +112,11 @@ li {
     /* Adjust text sizes */
     .nama {
         font-size: 1.5rem;
+        padding: 8px;
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 100%;
+        text-align: center;
     }
 
     .email, .id {
